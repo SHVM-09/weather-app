@@ -47,7 +47,7 @@ weather-app/
 1. **Clone the Repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SHVM-09/weather-app.git
    cd weather-app
    ```
 
@@ -72,7 +72,7 @@ To start the development server and view the app locally:
 npm run dev
 ```
 
-This command will start the Vite development server, and you can access the application at http://localhost:3000 in your browser.
+This command will start the Vite development server, and you can access the application at http://localhost:5173 in your browser.
 
 ## Usage
 
