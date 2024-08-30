@@ -41,8 +41,8 @@ const Weather = () => {
     if (data) {
       // Update weather data state with the new city data
       setWeatherData((prevData) => {
-        if (prevData.length >= 5) {
-          return [data, ...prevData.slice(0, 4)];
+        if (prevData.length >= 6) {
+          return [data, ...prevData.slice(0, 5)];
         } else {
           return [data, ...prevData];
         }
@@ -50,8 +50,8 @@ const Weather = () => {
 
       // Update cities state with the new city
       setCities((prevCities) => {
-        if (prevCities.length >= 5) {
-          return [city, ...prevCities.slice(0, 4)];
+        if (prevCities.length >= 6) {
+          return [city, ...prevCities.slice(0, 5)];
         } else {
           return [city, ...prevCities];
         }
