@@ -91,7 +91,7 @@ const Weather = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100 p-8">
       {/* Search input and button */}
-      <div className="mb-6 flex w-full max-w-sm flex-wrap items-center gap-3 sm:max-w-lg">
+      <div className="mb-6 flex w-full max-w-sm items-center gap-3 sm:max-w-lg">
         <input
           type="text"
           ref={inputRef}
