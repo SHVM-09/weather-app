@@ -96,7 +96,7 @@ const Weather = () => {
           type="text"
           ref={inputRef}
           placeholder="Search for a city"
-          className="h-12 flex-grow rounded-lg border border-gray-300 px-4 text-lg outline-none focus:border-gray-500 max-sm:max-w-72"
+          className="h-12 flex-grow rounded-lg border border-gray-300 px-4 text-lg outline-none focus:border-gray-500 max-sm:max-w-60"
           onKeyDown={handleKeyDown}
         />
         <button
