@@ -91,17 +91,17 @@ const Weather = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100 p-8">
       {/* Search input and button */}
-      <div className="mb-6 flex w-full items-center gap-3 sm:max-w-lg">
+      <div className="mb-6 flex w-full flex-wrap items-center gap-3 sm:max-w-lg">
         <input
           type="text"
           ref={inputRef}
           placeholder="Search for a city"
           className="h-12 flex-grow rounded-lg border border-gray-300 px-4 text-lg outline-none focus:border-gray-500"
-          onKeyDown={handleKeyDown} // Handle Enter key press in search input
+          onKeyDown={handleKeyDown}
         />
         <button
-          className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-200 text-xl hover:bg-gray-300"
-          onClick={() => search(inputRef.current.value)} // Handle search button click
+          className="flex h-12 w-12 min-w-[3rem] items-center justify-center rounded-lg bg-gray-200 text-xl hover:bg-gray-300"
+          onClick={() => search(inputRef.current.value)}
         >
           <CiSearch />
         </button>
