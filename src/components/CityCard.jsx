@@ -93,7 +93,7 @@ const CityCard = ({
             key={index}
             className="flex flex-col items-center rounded-lg bg-gray-200 p-2"
           >
-            <p className="text-sm text-gray-700">
+            <p className="text-nowrap text-sm text-gray-700">
               {new Date(day.date).toLocaleDateString("en-GB", {
                 day: "2-digit",
                 month: "short",
